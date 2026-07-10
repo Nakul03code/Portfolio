@@ -112,7 +112,7 @@ section { padding: 5rem 3rem; }
 
 .footer { padding: 2rem 3rem; border-top: 1px solid var(--border); text-align: center; color: var(--muted); font-size: 0.75rem; }
 
-.reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal { opacity: 1; transform: none; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
 @media (max-width: 768px) {
